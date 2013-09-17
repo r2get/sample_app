@@ -21,7 +21,8 @@ group :test do
   gem 'factory_girl_rails', '4.2.1'
   # Uncomment this line on OS X.
   gem 'growl', '1.0.3'
-
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
   # Uncomment these lines on Linux.
   # gem 'libnotify', '0.8.0'
 
